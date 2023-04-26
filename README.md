@@ -6,9 +6,9 @@
 
 1) Clonez le dépôt Git :
 
-`
+```
 git clone https://github.com/HoMyT/gestionnaire-tache-electron.git
-`
+```
 
 2) Installez les dépendances avec npm :
 
