@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Paramètres</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <script src="../../script/nav-bar/nav-bar.js"></script>
+
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card">
+					<div class="card-header">
+						Dark Theme
+					</div>
+					<div class="card-body">
+						<div class="custom-control custom-switch">
+							<input type="checkbox" class="custom-control-input" id="darkThemeSwitch">
+							<label class="custom-control-label" for="darkThemeSwitch">Activer/Désactiver le Dark Theme</label>
+						</div>
+					</div>
+				</div>
+				<div class="card mt-3">
+					<div class="card-header">
+						Changer le Pseudo
+					</div>
+					<div class="card-body">
+						<form>
+							<div class="form-group">
+								<label for="newUsername">Nouveau Pseudo</label>
+								<input type="text" class="form-control" id="newUsername" placeholder="Entrez votre nouveau pseudo">
+							</div>
+							<button type="submit" class="btn btn-primary btn-block">Changer le Pseudo</button>
+						</form>
+					</div>
+				</div>
+				<div class="card mt-3">
+					<div class="card-header">
+						Changer le Mot de Passe
+					</div>
+					<div class="card-body">
+						<form>
+							<div class="form-group">
+								<label for="currentPassword">Mot de Passe Actuel</label>
+								<input type="password" class="form-control" id="currentPassword" placeholder="Entrez votre mot de passe actuel">
+							</div>
+							<div class="form-group">
+								<label for="newPassword">Nouveau Mot de Passe</label>
+								<input type="password" class="form-control" id="newPassword" placeholder="Entrez votre nouveau mot de passe">
+							</div>
+							<div class="form-group">
+								<label for="confirmPassword">Confirmez le Nouveau Mot de Passe</label>
+								<input type="password" class="form-control" id="confirmPassword" placeholder="Confirmez votre nouveau mot de passe">
+							</div>
+							<button type="submit" class="btn btn-primary btn-block">Changer le Mot de Passe</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card">
+					<div class="card-header">
+						Profil
+					</div>
+					<div class="card-body">
+						<img src="https://via.placeholder.com/150" alt="Profile Picture" class="rounded-circle mx-auto d-block mb-3">
+						<button type="button" class="btn btn-primary btn-block">Changer la Photo de Profil</button>
+					</div>
+				</div>
+				<div class="card mt-3">
+					<div class="card-header">
+						Notifications
+					</div>
+					<div class="card-body">
+						<div class="custom-control custom-switch">
+							<input type="checkbox" class="custom-control-input" id="taskNotificationsSwitch">
+							<label class="custom-control-label" for="taskNotificationsSwitch">Activer/Désactiver les Notifications des Tâches</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 mt-5 text-center">
+				<button type="button" class="btn btn-danger">Supprimer le Compte</button>
+			</div>
+		</div>
+	</div>
+	
+    <script src="./account.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+
