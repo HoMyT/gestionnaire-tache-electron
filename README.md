@@ -2,7 +2,7 @@
 
 - Simple application exécutable Windows de gestion des tâches reliée à une API Node.js SQL.
 
-##Installation
+## Installation
 
 1) Clonez le dépôt Git :
 
