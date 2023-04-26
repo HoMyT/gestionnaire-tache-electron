@@ -1,4 +1,4 @@
-#gestionnaire-tache-electron
+# gestionnaire-tache-electron
 
 - Simple application exécutable Windows de gestion des tâches reliée à une API Node.js SQL.
 
@@ -16,7 +16,7 @@ git clone https://github.com/HoMyT/gestionnaire-tache-electron.git
 npm install
 ```
 
-##Exécution
+## Exécution
 
 3) Exécutez l'application avec npm :
 
@@ -26,6 +26,6 @@ npm run start
 
 4) L'application de gestionnaire de tâches Electron sera lancée.
 
-##Version
+## Version
 
 1.0.0
