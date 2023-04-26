@@ -12,17 +12,17 @@ git clone https://github.com/HoMyT/gestionnaire-tache-electron.git
 
 2) Installez les dépendances avec npm :
 
-`
+```
 npm install
-`
+```
 
 ##Exécution
 
 3) Exécutez l'application avec npm :
 
-`
+```
 npm run start
-`
+```
 
 4) L'application de gestionnaire de tâches Electron sera lancée.
 
